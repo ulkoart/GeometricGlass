@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE057E30239F726A00211238 /* ProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057E2F239F726A00211238 /* ProductsCollectionViewController.swift */; };
+		CE057E32239F81FE00211238 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE057E31239F81FE00211238 /* ProductViewCell.swift */; };
 		CE15D331238D5C8B00622B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15D330238D5C8B00622B12 /* AppDelegate.swift */; };
 		CE15D333238D5C8B00622B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15D332238D5C8B00622B12 /* ViewController.swift */; };
 		CE15D336238D5C8B00622B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15D334238D5C8B00622B12 /* Main.storyboard */; };
 		CE15D338238D5C8C00622B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE15D337238D5C8C00622B12 /* Assets.xcassets */; };
 		CE15D33B238D5C8C00622B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE15D339238D5C8C00622B12 /* LaunchScreen.storyboard */; };
 		CE15D343238D5CB200622B12 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15D342238D5CB200622B12 /* Models.swift */; };
-		CEB0D06C23993AAC00E1566C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0D06B23993AAC00E1566C /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE057E2F239F726A00211238 /* ProductsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewController.swift; sourceTree = "<group>"; };
+		CE057E31239F81FE00211238 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
 		CE15D32D238D5C8B00622B12 /* GeometricGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE15D330238D5C8B00622B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE15D332238D5C8B00622B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		CE15D33A238D5C8C00622B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE15D33C238D5C8C00622B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE15D342238D5CB200622B12 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		CEB0D06B23993AAC00E1566C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				CE15D342238D5CB200622B12 /* Models.swift */,
-				CEB0D06B23993AAC00E1566C /* MainTabBarController.swift */,
 				CE15D330238D5C8B00622B12 /* AppDelegate.swift */,
 				CE15D332238D5C8B00622B12 /* ViewController.swift */,
+				CE057E31239F81FE00211238 /* ProductViewCell.swift */,
+				CE057E2F239F726A00211238 /* ProductsCollectionViewController.swift */,
 				CE15D334238D5C8B00622B12 /* Main.storyboard */,
 				CE15D337238D5C8C00622B12 /* Assets.xcassets */,
 				CE15D339238D5C8C00622B12 /* LaunchScreen.storyboard */,
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE057E30239F726A00211238 /* ProductsCollectionViewController.swift in Sources */,
 				CE15D343238D5CB200622B12 /* Models.swift in Sources */,
 				CE15D333238D5C8B00622B12 /* ViewController.swift in Sources */,
-				CEB0D06C23993AAC00E1566C /* MainTabBarController.swift in Sources */,
+				CE057E32239F81FE00211238 /* ProductViewCell.swift in Sources */,
 				CE15D331238D5C8B00622B12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
